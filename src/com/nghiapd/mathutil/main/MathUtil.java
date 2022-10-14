@@ -16,6 +16,13 @@ public class MathUtil {
     //quy uoc' ko co giai thua` a^m
     // 0! = 1! = 1
     //chi tinh n tu` 1 => 20
+    //viết hàm tính giai thừa theo style đệ quy
+    // n giai thừa
+    //n! = 1.2.3.4.5.6...n
+    //3!= 1.2.3
+    //3!=2! x 3 = 3 x 2!
+    
+    
     public static long getFactorial(int n) {
         //if n <0 va n > 20
         if (n < 0 || n > 20) {
